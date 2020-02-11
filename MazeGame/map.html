@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+    <title></title>
+
+
+<script type="text/javascript" src="Js/map.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <div id="startGame"></div>
+    <div id="interface"></div>
+    <div id="preGame">
+
+      <div id="choiceScreentop">
+
+        <h2>choose your Character</h2>
+
+      </div>
+
+
+      <div id="choices">
+
+        <a href="#" onclick="gameManager.setGameStart(`Warrior`)">
+          <img src="" alt="">
+          <div id="">
+            <h3>Warrior</h3>
+          </div>
+
+        <a href="#" onclick="gameManager.setGameStart(`Thief`)">
+          <img src="" alt="">
+          <div id="">
+            <h3>Thief</h3>
+          </div>
+
+
+        <a href="#" onclick="gameManager.setGameStart(`Mage`)">
+          <img src="" alt="">
+          <div id="">
+          <h3>Mage</h3>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+
+    <canvas id='game' width="800" height="800"></canvas>
+
+
+
+      <div id="center">
+
+
+      </div>
+
+
+<div>
+
+
+        <div id="battleScreen">
+        </div>
+
+          <div id="stats">
+            <img id="slimeImg" src="" alt="">
+          <h3 id="enemyName"></h3>
+          <p id="enemyHp"></p>
+          <p id="enemyAtk"></p>
+          <p id="enemyXp"></p>
+          </div>
+</div>
+          <div id="enemySide">
+
+            <div id="enemyImg"></div>
+
+              <div id="enemyStats"></div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  </body>
+
+</html>

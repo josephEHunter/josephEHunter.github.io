@@ -28,42 +28,42 @@ this.xp=xp;
 
 let slime= new Enemy("Slime", 150, 20, 20, 10);
 
-let goblin= new Enemy("Goblin", 80, 10, 18, 20);
+// let goblin= new Enemy("Goblin", 80, 10, 18, 20);
 
-let wyvern= new Enemy("Wyvern", 120, 50, 22, 35);
+// let wyvern= new Enemy("Wyvern", 120, 50, 22, 35);
 
-switch (enemy) {
-  case 0:
-    enemy=slime;
-    break;
+// switch (enemy) {
+//   case 0:
+//     enemy=slime;
+//     break;
 
-  case 1:
-    enemy=goblin;
-    break;
+//   case 1:
+//     enemy=goblin;
+//     break;
 
-  case 2:
-    enemy=wyvern;
-    break;
-}
+//   case 2:
+//     enemy=wyvern;
+//     break;
+// }
 
-currentEnemy=[slime, goblin, wyvern]
+// currentEnemy=[slime, goblin, wyvern]
 
 
-let bossEnemy;
+// let bossEnemy;
 
-function BossEnemy (name, value, value, value, value) {
-this.name= name;
-this.hp= (Math.floor(Math.random() *2)+4);
-this.mp= Math.random();
-this.atk= (Math.floor(Math.random() *10)+5);
-this.xp=value;
-};
+// function BossEnemy (name, value, value, value, value) {
+// this.name= name;
+// this.hp= (Math.floor(Math.random() *2)+4);
+// this.mp= Math.random();
+// this.atk= (Math.floor(Math.random() *10)+5);
+// this.xp=value;
+// };
 
-let dragon= new BossEnemy("Dragon");
-let warewolf= new BossEnemy("Warewolf");
-let perscholas= new BossEnemy("Perscholas");
+// let dragon= new BossEnemy("Dragon");
+// let warewolf= new BossEnemy("Warewolf");
+// let perscholas= new BossEnemy("Perscholas");
 
-let currBoss = [dragon, warewolf, perscholas];
+// let currBoss = [dragon, warewolf, perscholas];
 
 // my attack function
 
